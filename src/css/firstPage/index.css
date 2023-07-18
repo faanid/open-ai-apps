@@ -18,7 +18,7 @@ body {
     font-family: 'Poppins';
     background-size: cover;
     background-repeat: repeat-y;
-    background-image: url('images/moviepitchbg-dark.jpg');
+    background-image: url('../../images/moviepitchbg-dark.jpg');
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -49,23 +49,34 @@ p {
 header {
     background-color: var(--dark);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: .3em;
+    padding: 1em 0;
 }
 
-header>img {
-    height: 26px;
+.logo {
+    height: 21px;
+
+}
+.bold:hover{
+    color:var(--pink);
+
+}
+.bold-space{
+    display: flex;
+    justify-content: center;
+    gap: 1em;;
 }
 
-header>a {
+.bold {
     color: var(--light);
     font-size: 1.5em;
     text-decoration: none;
     padding: 1em 0;
 }
 
-header span {
+.bold span {
     font-weight: 700;
 }
 

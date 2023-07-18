@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <title>Movie Pitch</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -9,19 +10,26 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./src/css/firstPage/index.css" />
   </head>
 
   <body>
     <header>
-      <img src="./images/logo-movie.png" alt="MoviePitch" />
-      <a href="/"><span>Movie</span>Pitch</a>
+      <div class="bold-space">
+        <a href="#" class="bold" onclick="redirectToSecondPage()">Advertify</a>
+      </div>
+      <div>
+        <img src="./src/images/logo-movie.png" alt="MoviePitch" class="logo" />
+        <a href="/" class="bold"><span>Movie</span>Pitch</a>
+      </div>
+
+      <div><a href="#" class="bold">Github</a></div>
     </header>
     <main>
       <!-- The Setup -->
       <section id="setup-container">
         <div class="setup-inner">
-          <img src="/images/movieboss.png" alt="" />
+          <img src="./src/images/movieboss.png" alt="" />
           <div class="speech-bubble-ai" id="speech-bubble-ai">
             <p id="movie-boss-text">
               Give me a one-sentence concept and I'll give you an eye-catching
@@ -39,7 +47,7 @@
             placeholder="An evil genius wants to take over the world using AI."
           ></textarea>
           <button class="send-btn" id="send-btn" aria-label="send">
-            <img src="images/send-btn-icon.png" alt="send" />
+            <img src="./src/images/send-btn-icon.png" alt="send" />
           </button>
         </div>
       </section>
@@ -52,6 +60,11 @@
       </section>
     </main>
     <footer>&copy; 2023 MoviePitch All rights reserved</footer>
-    <script type="module" src="index.js"></script>
+    <script type="module" src="./js/mainpage/index.js"></script>
+    <script>
+      function redirectToSecondPage() {
+        window.location.href = "generate-pic.html";
+      }
+    </script>
   </body>
 </html>

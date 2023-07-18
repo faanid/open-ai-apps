@@ -1,0 +1,134 @@
+*, *::before, *::after {
+    box-sizing: border-box;  
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* sections */
+
+.intro, .ad-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 .5em;
+}
+
+.intro {
+    margin-top: 0;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-position: right 90%;
+    background-size: cover;
+    background-color: #0ea5e9;
+    color: white;
+}
+
+.ad-input{
+    margin: 1em 1em 0 1em;
+}
+
+.ad-output {
+    display: none;
+    width: 280px;
+    margin: 1em auto;
+    border: 3px solid #0ea5e9;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-top: .5em;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    font-weight: 300;
+    margin: 0 0 .5em 0;
+    padding: 0 2rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0ea5e9;
+}
+
+strong {
+    font-weight: 700;
+}
+
+textarea, input[type="text"] {
+    border: 1px solid #0ea5e9;
+    width: 280px;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 75px;
+}
+
+input::placeholder, textarea::placeholder {
+    opacity: 0.4;
+    color: #0ea5e9;
+}
+
+button {
+    margin-top: 1em;
+    background: #0ea5e9;
+    width: 280px;
+    padding: 15px 0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+}
+
+
+label {
+    margin-bottom: -.6em;
+    margin-top: .6em;
+    z-index: 1;
+    background-color: white;
+    padding: 0 .5em;
+    color: #0369a1;
+}
+
+
+@media (min-width: 600px){
+    main {
+        display: flex;
+    }
+    
+    .intro {
+        height: 100vh;
+        max-width: 50%;
+        justify-content: space-around;
+        background-position: bottom 50% right;
+    }
+    
+    .ad-input {
+        justify-content: center;
+        align-items: center;
+        margin-top: unset;
+        width: 50%;
+    }
+    
+    p {
+    background-color: white;
+    color: #0369a1;
+    padding: .3em;
+    border-radius: 5px
+}
+}
