@@ -1,0 +1,76 @@
+html, body {
+    margin: 0px;
+    padding: 0;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(#333333, #222222);
+    height: 100vh;
+    margin: 0 20px;
+}
+
+h1 {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 0px 40px;;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .04em;  
+}
+
+textarea {
+    width: 280px;
+    box-sizing: border-box;
+    padding: 8px 15px;
+    border-radius: 5px;
+    resize: none;
+    height: 3.5em;
+}
+
+button {
+    margin-top: 8px;
+    background: deepskyblue;
+    background: #b2835a;
+    width: 280px;
+    padding: 15px 0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1.1px;
+}
+
+.frame {
+    background-color: #000;
+    border: solid 5vmin #eee;
+    border-bottom-color: rgb(111, 78, 55);
+    border-left-color: rgb(90, 68, 50);
+    border-radius: 2px;
+    border-right-color: rgb(90, 68, 40);
+    border-top-color: rgb(101, 78, 55);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 280px;
+    height: 280px;
+}
+
+.frame img {
+    width: 100%;
+}
+
+.frame h2 {
+    margin-top: 3.4em;
+    font-size: 1.1em;
+}

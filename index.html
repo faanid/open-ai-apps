@@ -17,6 +17,7 @@
     <header>
       <div class="bold-space">
         <a href="#" class="bold" onclick="redirectToSecondPage()">Advertify</a>
+        <a href="#" class="bold" onclick="redirectToThirdPage()">ArtMatch</a>
       </div>
       <div>
         <img src="./src/images/logo-movie.png" alt="MoviePitch" class="logo" />
@@ -63,6 +64,9 @@
     <script type="module" src="./js/mainpage/index.js"></script>
     <script>
       function redirectToSecondPage() {
+        window.location.href = "advertify.html";
+      }
+      function redirectToThirdPage() {
         window.location.href = "generate-pic.html";
       }
     </script>

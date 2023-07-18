@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advertify</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <title></title>
+    <link rel="stylesheet" href="./src/css/secondPage/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <section class="intro">
+        <h1>Advertify</h1>
+        <h2>
+          Get promotional <strong>copy</strong> for your products
+          <strong>fast</strong>
+        </h2>
+        <p>Powered by AI🤖</p>
+      </section>
+      <section class="ad-input" id="ad-input">
+        <label for="">Product Name</label>
+        <input type="text" placeholder="Vegan Fish Cream" id="name" />
+        <label for="">Description</label>
+        <textarea
+          placeholder="Fish flavoured vegan ice cream"
+          id="desc"
+        ></textarea>
+        <label for="">Target market</label>
+        <input type="text" placeholder="kids under 12" id="target" />
+        <button id="submit-btn">Generate Copy</button>
+      </section>
+      <section class="ad-output" id="ad-output">
+        <h4>Your Copy!</h4>
+      </section>
+    </main>
+    <script type="module" src="./js/advertify/index.js"></script>
+  </body>
+</html>
+
+<!-- Fish flavoured vegan ice cream -->
