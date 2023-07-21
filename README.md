@@ -6,12 +6,11 @@ AI Apps with ChatGPT, Dall-E, and GPT-4
 
 
 ## Screenshots
-![moviePith](https://github.com/faanid/open-ai-movie-idea/assets/73032767/428ddf04-74b6-434f-93c0-92e6de10b35e)
+![moviePith](https://github.com/faanid/open-ai-apps/assets/73032767/5db0ac52-fecd-483a-9db9-2039e4e61243)
 
+![advertify](https://github.com/faanid/open-ai-apps/assets/73032767/3eab7351-ccb6-4fba-967f-820c5bfb7076)
 
-![advertify](https://github.com/faanid/open-ai-movie-idea/assets/73032767/ca55e6c3-1802-4d96-b782-6634e75e995f)
-
-![artmatch](https://github.com/faanid/open-ai-movie-idea/assets/73032767/d2011bd1-7d32-4a9c-bc47-28510838b92f)
+![artmatch](https://github.com/faanid/open-ai-apps/assets/73032767/043b908c-f4c0-4d61-b309-abf31f834e35)
 
 
 ## Run Locally
